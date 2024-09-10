@@ -76,7 +76,7 @@ public class Main {
         if (resultado % 2 == 0) {
             System.out.println("---EL RESULTADO DE LA OPERACION ES NUMERO PAR");
         }else {
-            System.out.println(resultado + " ES NUMERO IMPAR");
+            System.out.println("EL RESULATDO -->"+resultado + " ES NUMERO IMPAR");
         };
 
         // PASO 8
@@ -85,8 +85,7 @@ public class Main {
 
         // PASO 9
         if (numero1 > 10 && numero2 > 10)
-            System.out.println("--AMBOS NUMERO SON POSITIVOS MAYORES QUE 10");
-        {
+        { System.out.println("--AMBOS NUMERO SON POSITIVOS MAYORES QUE 10");
         };
         if (numero1 <= 0 || numero2 <= 0) {
             System.out.println("--AL MENOS UNO DE LOS DOS NUMERO ES MENOR O IGUAL A 0");
